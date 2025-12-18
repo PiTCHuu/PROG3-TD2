@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class DBConnection {
     private final String Url = "jdbc:postgresql://localhost:5432/mini_football_db";
     private final String User = "mini_football_db_manager";
-    private final String Password = "123";
+    private final String Password = "123456";
 
     public Connection getDBConnection() {
         try {

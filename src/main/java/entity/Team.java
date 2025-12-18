@@ -7,11 +7,8 @@ public class Team {
     private int  id;
     private String name;
     private ContinentEnum continent;
-    private List<Player> players;
+    private List<Player> players = new ArrayList<>();
 
-    public Team(){
-        this.players = new ArrayList<>();
-    }
 
     public Team(int id, String name, ContinentEnum continent) {
         this.id = id;

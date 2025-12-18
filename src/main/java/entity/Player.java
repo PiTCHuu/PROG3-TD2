@@ -55,8 +55,8 @@ public class Player {
         this.team = team;
     }
 
-    public void getTeamName(){
-        this.team.setName(this.name);
+    public String getTeamName(){
+        return team != null ? team.getName() : null ;
     }
 
 }
