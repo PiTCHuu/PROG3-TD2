@@ -49,6 +49,6 @@ public class Team {
     }
 
     public Integer getPlayersCount() {
-        return players.size();
+        return (players != null) ? players.size() : 0;
     }
 }

@@ -1,6 +1,6 @@
 create database mini_football_db;
 
-create user mini_football_db_manager with password '123';
+create user mini_football_db_manager with password '123456';
 
 grant connect on database mini_football_db to mini_football_db_manager;
 
